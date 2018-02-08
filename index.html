@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Jason Weinzierl">
+        <meta name="description" content="Jason Weinzierl is a developer">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Bootstrap CSS -->
+        <link
+            rel="stylesheet"
+            href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+            integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+            crossorigin="anonymous">
+
+        <!-- jQuery -->
+        <script
+            src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"
+            integrity="sha384-xBuQ/xzmlsLoJpyjoggmTEz8OWUFM0/RC5BsqQBDX2v5cMvDHcMakNTNrHIW2I5f"
+            crossorigin="anonymous"></script>
+
+        <!-- Boostrap JavaScript -->
+        <script
+            src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+            integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+            crossorigin="anonymous"></script>
+
+        <!---<link rel="stylesheet" href="cover.css">-->
+
+        <title>Jason Weinzierl</title>
+    </head>
+    <body>
+        <header>
+            <nav class="navbar navbar-default">
+                <div class="container">
+                    <div class="navbar-header">
+                        <a href="/" class="navbar-brand">Jason Weinzierl</a>
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                    <div class="collapse navbar-collapse" id="navbar-collapse-1">
+                        <ul class="nav navbar-nav">
+                            <li>
+                                <a href="/">Home</a>
+                            </li>
+                            <li>
+                                <a href="/apps/blog/">News</a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Content <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a href="/apps/photos/">Photos</a>
+                                    </li>
+                                    <!--<li>
+                                        <a href="/apps/calendar/">Calendar</a>
+                                    </li>-->
+                                    <li>
+                                        <a href="/apps/location/">The Museum</a>
+                                    </li>
+                                    <li role="separator" class="divider"></li>
+                                    <li>
+                                        <a href="/apps/members/">Members</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="/contact.php">Contact Us</a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="/whoweare.php">Who We Are</a></li>
+                                    <li><a href="/bylawsandleadership.php">By-laws and Leadership</a></li>
+                                    <li><a href="/donate.php">Donate</a></li>
+                                    <li role="separator" class="divider"></li>
+                                    <li><a href="/about.php">About this Site</a></li>
+                                    <li><a href="/termsofservice.php">Terms of Service</a></li>
+                                    <li><a href="/privacypolicy.php">Privacy Policy</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <form class="navbar-form navbar-right">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Search" aria-label="Search">
+                            </div>
+                            <button type="submit" class="btn btn-default" aria-label="Submit">Submit</button>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+            <script>
+                /* sets active class for current page links */
+                
+                var pathName = this.location.pathname;
+                $(document).ready(function() {
+                    $('a[href="' + pathName + '"]').parent().addClass('active');
+                });
+            </script>
+        </header>
+        <main>
+            <div class="container">
+                <h1>Jason Weinzierl</h1>
+                <p class="lead">
+                    Greetings!
+                </p>
+                <p>This is my site</p>
+            </div>
+        </main>
+        <footer>
+            <div class="container">
+                <ul class="list-inline text-muted center-block text-center small">
+                    <li>
+                        <a href="/about.php">About this Site</a>
+                    </li>
+                    <li>
+                        <a href="/contact.php">Contact Us</a>
+                    </li>
+                    <li>Copyright &copy; <time datetime="2018">2018</time></li>
+                    <li>
+                        <a href="/termsofservice.php">Terms of Service</a>
+                    </li>
+                    <li>
+                        <a href="/privacypolicy.php">Privacy Policy</a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+    </body>
+</html>
