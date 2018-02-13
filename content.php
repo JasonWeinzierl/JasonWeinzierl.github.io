@@ -88,13 +88,13 @@ case 3:
     echo <<<HTML
 
                 <h3>Music</h3>
-                <ul>
+                <ul class="list-unstyled">
                     <li>Marching Mizzou, Mellophone <span class="text-muted">4 years</span></li>
                     <li>Classical Piano <span class="text-muted">Since 2001</span></li>
                     <li>Family Brass Quintet</li>
                 </ul>
                 <h3>Volunteer Work</h3>
-                <ul>
+                <ul class="list-unstyled">
                     <li>Sound Booth operation at my local church</li>
                     <li>Maintaining the Belton Historical Society, interacting with members</li>
                 </ul>
