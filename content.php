@@ -5,15 +5,16 @@ if (empty($_GET['content'])) {
 
 switch ($_GET['content']) {
 case 0:
+    // home
     echo '';
     break;
 case 1:
+    // projects
     echo <<<HTML
 
-                <h2>Major Projects</h2>
                 <div class="row">
                     <div class="col-md">
-                        <h3>Belton Historical Society <span class="text-muted">Site</span></h3>
+                        <h3>Belton Historical Society <a href="https://beltonhistoricalsociety.org" class="text-muted">Site<span class="fas fa-link fa-xs" aria-hidden="true"></span></a></h3>
                         <ul class="list-unstyled">
                             <li class="text-muted">July 2011 to Present</li>
                             <li>Redesigned/rebuilt site using Twitter's Bootstrap <mark>CSS</mark> framework over Summer 2017</li>
@@ -22,7 +23,7 @@ case 1:
                         </ul>
                     </div>
                     <div class="col-md">
-                        <h3>Missouri Rail <span class="text-muted">Site</span></h3>
+                        <h3>Missouri Rail <a href="http://missourirail.com" class="text-muted">Site<span class="fas fa-link fa-xs" aria-hidden="true"></span></a></h3>
                         <ul class="list-unstyled">
                             <li class="text-muted">Feb 2017 to Apr 2017</li>
                             <li>5-person group effort for introductory Databases course</li>
@@ -43,10 +44,61 @@ case 1:
 HTML;
     break;
 case 2:
-    echo 'education here';
+    // education
+    echo <<<HTML
+
+                <div class="row">
+                    <div class="col-md">
+                        <h3>Physics&#151;BS</h3>
+                        <ul class="list-unstyled">
+                            <li>Mechanics</li>
+                            <li>Electricity &amp; Magnetism</li>
+                            <li>Astronomy</li>
+                            <li>Thermodynamics</li>
+                            <li>Quantum Mechanics</li>
+                        </ul>
+                    </div>
+                    <div class="col-md">
+                        <h3>Mathematics&#151;BS</h3>
+                        <ul class="list-unstyled">
+                            <li>Real Analysis</li>
+                            <li>Linear Algebra</li>
+                            <li>Non-Euclidean Geometry</li>
+                            <li>Abstract Algebra</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md">
+                        <h3>Computer Science, Minor</h3>
+                        <ul class="list-unstyled">
+                            <li>Object-Oriented Design: Java, Swift, PHP</li>
+                            <li>Database Applications: SQL</li>
+                            <li>Agile Methodology: Scrum, Kanban</li>
+                            <li>UNIX Systems: Bash</li>
+                            <li>Theory of Computation</li>
+                            <li>Senior Capstone Design Sequence</li>
+                        </ul>
+                    </ul>
+                </div>
+HTML;
     break;
 case 3:
-    echo 'hobbies';
+    // interests
+    echo <<<HTML
+
+                <h3>Music</h3>
+                <ul>
+                    <li>Marching Mizzou, Mellophone <span class="text-muted">4 years</span></li>
+                    <li>Classical Piano <span class="text-muted">Since 2001</span></li>
+                    <li>Family Brass Quintet</li>
+                </ul>
+                <h3>Volunteer Work</h3>
+                <ul>
+                    <li>Sound Booth operation at my local church</li>
+                    <li>Maintaining the Belton Historical Society, interacting with members</li>
+                </ul>
+HTML;
     break;
 default:
     break;
