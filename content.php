@@ -40,6 +40,15 @@ case 1:
                             <li>macOS clipboard manager in <mark>Swift</mark></li>
                         </ul>
                     </div>
+                    <div class="col-md">
+                        <h3>Capstone <span class="text-muted">Application</span></h3>
+                        <ul class="list-unstyled">
+                            <li class="text-muted">Ongoing, planning stages</li>
+                            <li>5-person group, Computer Science Capstone</li>
+                            <li>Current vision is a note-taking app for tablets/2-in-1s</li>
+                            <li>Initial requirements phase</li>
+                        </ul>
+                    </div>
                 </div>
 HTML;
     break;
