@@ -45,8 +45,9 @@ case 1:
                         <ul class="list-unstyled">
                             <li class="text-muted">Ongoing, planning stages</li>
                             <li>5-person group, Computer Science Capstone</li>
-                            <li>Current vision is a note-taking app for tablets/2-in-1s</li>
-                            <li>Initial requirements phase</li>
+                            <li>Note-taking app for iOS, UI in <mark>React Native</mark></li>
+                            <li>Featuring collaborative whiteboarding; infinite canvases; emphasis on low-movement UI</li>
+                            <li>Initial requirements/research phase</li>
                         </ul>
                     </div>
                 </div>
