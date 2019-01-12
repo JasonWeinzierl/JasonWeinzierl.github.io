@@ -75,15 +75,19 @@ case 2:
                             <li>Astronomy</li>
                             <li>Thermodynamics</li>
                             <li>Quantum Mechanics</li>
+                            <li>Computational Biological Physics</li>
+                            <li>Nuclear Magnetic Resonance</li>
                         </ul>
                     </div>
                     <div class="col-md">
                         <h3>Mathematics&#151;BS</h3>
                         <ul class="list-unstyled">
+                            <li>Differential Equations</li>
                             <li>Real Analysis</li>
                             <li>Linear Algebra</li>
                             <li>Non-Euclidean Geometry</li>
                             <li>Abstract Algebra</li>
+                            <li>Theory of Numbers</li>
                         </ul>
                     </div>
                 </div>
@@ -96,6 +100,8 @@ case 2:
                             <li>Agile Methodology: Scrum, Kanban</li>
                             <li>UNIX Systems: Bash</li>
                             <li>Theory of Computation</li>
+                            <li>Computer Networks</li>
+                            <li>Design and Analysis of Algorithms</li>
                             <li>Senior Capstone Design Sequence</li>
                         </ul>
                     </ul>
@@ -108,12 +114,13 @@ case 3:
 
                 <h3>Music</h3>
                 <ul class="list-unstyled">
-                    <li>Marching Mizzou, Mellophone <span class="text-muted">4 years</span></li>
+                    <li>Marching Mizzou, Mellophone <span class="text-muted">5 years</span></li>
                     <li>Classical Piano <span class="text-muted">Since 2001</span></li>
                     <li>Family Brass Quintet</li>
                 </ul>
                 <h3>Volunteer Work</h3>
                 <ul class="list-unstyled">
+                    <li>Re-notated Marching Mizzou's music in Finale <span class="text-muted">Summer 2018</span></li>
                     <li>Sound Booth operation at my local church</li>
                     <li>Maintaining the Belton Historical Society, interacting with members</li>
                 </ul>
