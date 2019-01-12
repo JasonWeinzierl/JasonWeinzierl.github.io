@@ -43,11 +43,20 @@ case 1:
                     <div class="col-md">
                         <h3>Capstone <span class="text-muted">Application</span></h3>
                         <ul class="list-unstyled">
-                            <li class="text-muted">Ongoing, planning stages</li>
+                            <li class="text-muted">2018</li>
                             <li>5-person group, Computer Science Capstone</li>
                             <li>Note-taking app for iOS, UI in <mark>React Native</mark></li>
-                            <li>Featuring collaborative whiteboarding; infinite canvases; emphasis on low-movement UI</li>
-                            <li>Initial requirements/research phase</li>
+                            <li>Emphasis on low-movement UI</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md">
+                        <h3>simple-chatroom <a href="https://github.com/JasonWeinzierl/simple-chatroom" class="text-muted">CLI<span class="fas fa-link fa-xs" aria-hidden="true"></span></a></h3>
+                        <ul class="list-unstyled">
+                            <li class="text-muted">Nov 2018</li>
+                            <li>Project for Networking</li>
+                            <li>Built entirely with <mark>Node.js</mark>, over TCP</li>
                         </ul>
                     </div>
                 </div>
