@@ -81,7 +81,7 @@ case 2:
                             <li>Microcomputer Engineering</li>
                             <li>Senior Capstone Design Sequence</li>
                         </ul>
-                    </ul>
+                    </div>
                 </div>
                 <div class="row">
                     <div class="col-md">
