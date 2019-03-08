@@ -8,9 +8,7 @@ case 0:
     // home
     echo '';
     break;
-case 1:
-    // projects
-    echo <<<HTML
+case 1: ?>
 
                 <div class="row">
                     <div class="col-md">
@@ -31,8 +29,7 @@ case 1:
                             <li>Built entirely with <mark>Node.js</mark>, over TCP</li>
                         </ul>
                     </div>
-                </div>
-                <div class="row">
+                    <div class="w-100"></div>
                     <div class="col-md">
                         <h3>Capstone <span class="text-muted">Application</span></h3>
                         <ul class="list-unstyled">
@@ -50,8 +47,7 @@ case 1:
                             <li>macOS clipboard manager in <mark>Swift</mark></li>
                         </ul>
                     </div>
-                </div>
-                <div class="row">
+                    <div class="w-100"></div>
                     <div class="col-md">
                         <h3>Missouri Rail <a href="http://missourirail.com" class="text-muted">Site<span class="fas fa-link fa-xs" aria-hidden="true"></span></a></h3>
                         <ul class="list-unstyled">
@@ -61,11 +57,9 @@ case 1:
                         </ul>
                     </div>
                 </div>
-HTML;
+<?php
     break;
-case 2:
-    // education
-    echo <<<HTML
+case 2: ?>
 
                 <div class="row">
                     <div class="col-md">
@@ -82,8 +76,7 @@ case 2:
                             <li>Senior Capstone Design Sequence</li>
                         </ul>
                     </div>
-                </div>
-                <div class="row">
+                    <div class="w-100"></div>
                     <div class="col-md">
                         <h3>Physics&#151;BS</h3>
                         <ul class="list-unstyled">
@@ -108,11 +101,9 @@ case 2:
                         </ul>
                     </div>
                 </div>
-HTML;
+<?php
     break;
-case 3:
-    // interests
-    echo <<<HTML
+case 3: ?>
 
                 <h3>Music</h3>
                 <ul class="list-unstyled">
@@ -126,7 +117,7 @@ case 3:
                     <li>Sound Booth operation at my local church</li>
                     <li>Maintaining the Belton Historical Society, interacting with officers and members</li>
                 </ul>
-HTML;
+<?php
     break;
 default:
     break;
