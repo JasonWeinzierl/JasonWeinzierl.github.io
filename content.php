@@ -6,7 +6,7 @@ if (empty($_GET['content'])) {
 switch ($_GET['content']) {
 case 0:
     // home
-    echo '';
+    echo '<div class="LI-profile-badge"  data-version="v1" data-size="large" data-locale="en_US" data-type="horizontal" data-theme="dark" data-vanity="jason-weinzierl-506bb7133"><a class="LI-simple-link" href="https://www.linkedin.com/in/jason-weinzierl-506bb7133">Jason Weinzierl on LinkedIn</a></div>';
     break;
 case 1: ?>
 
