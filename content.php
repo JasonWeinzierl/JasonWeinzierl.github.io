@@ -11,6 +11,14 @@ case 9: ?>
 <?php
     break;
 case 1: ?>
+                <div class="row">
+                    <div class="col-md">
+                        <h3>Service Management Group</h3>
+                    </div>
+                </div>
+<?php
+    break;
+case 2: ?>
 
                 <div class="row">
                     <div class="col-md">
@@ -61,7 +69,7 @@ case 1: ?>
                 </div>
 <?php
     break;
-case 2: ?>
+case 3: ?>
 
                 <div class="row">
                     <div class="col-md">
@@ -105,7 +113,7 @@ case 2: ?>
                 </div>
 <?php
     break;
-case 3: ?>
+case 4: ?>
 
                 <h3>Music</h3>
                 <ul class="list-unstyled">
