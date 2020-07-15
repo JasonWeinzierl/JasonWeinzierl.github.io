@@ -15,11 +15,25 @@ case 1: ?>
                 <div class="row">
                     <div class="col-md">
                         <h3>SMG - Service Management Group</h3>
+                        <p>Associate Software Engineer <span class="text-muted">Advanced Text Analytics</span></p>
+                        <ul class="list-unstyled">
+                            <li class="text-muted">June 2020 to Present</li>
+                            <li>Text Analytics product lane</li>
+                            <li>Agile development team for TA enhancements</li>
+                            <li><mark>C#</mark>, <mark>Angular</mark>, SQL Server, MongoDB, <mark>Elasticsearch</mark></li>
+                        </ul>
+                        <p>Associate Software Engineer <span class="text-muted">Core Bug Team</span></p>
+                        <ul class="list-unstyled">
+                            <li class="text-muted">April 2020 to June 2020</li>
+                            <li>Production Support of operations, work with client-facing teams in problem resolutino</li>
+                            <li>Bug fixing for all platforms</li>
+                            <li>Automated monitoring for outages</li>
+                        </ul>
                         <p>Associate Software Engineer <span class="text-muted">Data Processing Team</span></p>
                         <ul class="list-unstyled">
-                            <li class="text-muted">May 2019 to Present</li>
+                            <li class="text-muted">May 2019 to March 2020</li>
                             <li>Develop &amp; support ETL systems in <mark>SSIS</mark> for importing multi-source transactional data</li>
-                            <li>Develop <mark>C#</mark> modules for translating flat files to EAV model database</li>
+                            <li>Develop C# modules for translating flat files to EAV model database</li>
                             <li>Dedicated contributions to automating and documenting existing processes</li>
                             <li>Ad Hoc queries of <mark>SQL Server</mark>, MongoDB, Hive Hadoop in support of client-facing teams</li>
                         </ul>
@@ -33,17 +47,12 @@ case 1: ?>
                             <li>Custom <mark>PHP</mark> classes using Object Oriented Design to easily handle the database</li>
                             <li><mark>MariaDB</mark> database normalized</li>
                         </ul>
-                    </div>
-                    <div class="w-100"></div>
-                    <div class="col-md">
                         <h3>simple-chatroom <a href="https://github.com/JasonWeinzierl/simple-chatroom" class="text-muted">CLI<span class="fas fa-link fa-xs" aria-hidden="true"></span></a></h3>
                         <ul class="list-unstyled">
                             <li class="text-muted">Nov 2018 to Present</li>
                             <li>Project for Networking</li>
                             <li>Built entirely with <mark>Node.js</mark>, over TCP</li>
                         </ul>
-                    </div>
-                    <div class="col-md">
                         <h3>Capstone <span class="text-muted">Application</span></h3>
                         <ul class="list-unstyled">
                             <li class="text-muted">2018</li>
@@ -51,17 +60,12 @@ case 1: ?>
                             <li>Note-taking app for iOS, UI in <mark>React Native</mark></li>
                             <li>Emphasis on low-movement UI</li>
                         </ul>
-                    </div>
-                    <div class="w-100"></div>
-                    <div class="col-md">
                         <h3>Clippin <span class="text-muted">Application</span></h3>
                         <ul class="list-unstyled">
                             <li class="text-muted">Oct 2017 to Dec 2017</li>
                             <li>3-person group for Software Engineering, learned Agile Methodology</li>
                             <li>macOS clipboard manager in <mark>Swift</mark></li>
                         </ul>
-                    </div>
-                    <div class="col-md">
                         <h3>Missouri Rail <a href="http://missourirail.com" class="text-muted">Site<span class="fas fa-link fa-xs" aria-hidden="true"></span></a></h3>
                         <ul class="list-unstyled">
                             <li class="text-muted">Feb 2017 to Apr 2017</li>
