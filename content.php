@@ -11,16 +11,19 @@ case 9: ?>
 <?php
     break;
 case 1: ?>
-                <div class="row">
-                    <div class="col-md">
-                        <h3>Service Management Group</h3>
-                    </div>
-                </div>
-<?php
-    break;
-case 2: ?>
 
                 <div class="row">
+                    <div class="col-md">
+                        <h3>SMG - Service Management Group</h3>
+                        <p>Associate Software Engineer <span class="text-muted">Data Processing Team</span></p>
+                        <ul class="list-unstyled">
+                            <li class="text-muted">May 2019 to Present</li>
+                            <li>Develop &amp; support ETL systems in <mark>SSIS</mark> for importing multi-source transactional data</li>
+                            <li>Develop <mark>C#</mark> modules for translating flat files to EAV model database</li>
+                            <li>Dedicated contributions to automating and documenting existing processes</li>
+                            <li>Ad Hoc queries of <mark>SQL Server</mark>, MongoDB, Hive Hadoop in support of client-facing teams</li>
+                        </ul>
+                    </div>
                     <div class="col-md">
                         <h3>Belton Historical Society <a href="https://beltonhistoricalsociety.org" class="text-muted">Site<span class="fas fa-link fa-xs" aria-hidden="true"></span></a></h3>
                         <ul class="list-unstyled">
@@ -31,6 +34,7 @@ case 2: ?>
                             <li><mark>MariaDB</mark> database normalized</li>
                         </ul>
                     </div>
+                    <div class="w-100"></div>
                     <div class="col-md">
                         <h3>simple-chatroom <a href="https://github.com/JasonWeinzierl/simple-chatroom" class="text-muted">CLI<span class="fas fa-link fa-xs" aria-hidden="true"></span></a></h3>
                         <ul class="list-unstyled">
@@ -39,7 +43,6 @@ case 2: ?>
                             <li>Built entirely with <mark>Node.js</mark>, over TCP</li>
                         </ul>
                     </div>
-                    <div class="w-100"></div>
                     <div class="col-md">
                         <h3>Capstone <span class="text-muted">Application</span></h3>
                         <ul class="list-unstyled">
@@ -49,6 +52,7 @@ case 2: ?>
                             <li>Emphasis on low-movement UI</li>
                         </ul>
                     </div>
+                    <div class="w-100"></div>
                     <div class="col-md">
                         <h3>Clippin <span class="text-muted">Application</span></h3>
                         <ul class="list-unstyled">
@@ -57,7 +61,6 @@ case 2: ?>
                             <li>macOS clipboard manager in <mark>Swift</mark></li>
                         </ul>
                     </div>
-                    <div class="w-100"></div>
                     <div class="col-md">
                         <h3>Missouri Rail <a href="http://missourirail.com" class="text-muted">Site<span class="fas fa-link fa-xs" aria-hidden="true"></span></a></h3>
                         <ul class="list-unstyled">
@@ -69,7 +72,7 @@ case 2: ?>
                 </div>
 <?php
     break;
-case 3: ?>
+case 2: ?>
 
                 <div class="row">
                     <div class="col-md">
@@ -113,13 +116,17 @@ case 3: ?>
                 </div>
 <?php
     break;
-case 4: ?>
+case 3: ?>
 
                 <h3>Music</h3>
                 <ul class="list-unstyled">
                     <li>Marching Mizzou, Mellophone <span class="text-muted">5 years</span></li>
                     <li>Classical Piano <span class="text-muted">Since 2001</span></li>
                     <li>Family Brass Quintet</li>
+                </ul>
+                <h3>College Football</h3>
+                <ul class="list-unstyled">
+                    <li>Go Tigers!</li>
                 </ul>
                 <h3>Volunteer Work</h3>
                 <ul class="list-unstyled">
