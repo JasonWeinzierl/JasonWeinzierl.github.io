@@ -1,0 +1,33 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+---
+
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <BaseHead title="Jason Weinzierl" />
+</head>
+
+<body>
+    <Header />
+    <main>
+        <div class="container mt-4">
+            <h1 class="display-1">Jason Weinzierl</h1>
+            <p class="lead">
+                <a href="/experience/" class="link-secondary link-offset-1">Software Engineer.</a>
+                <a href="/education/" class="link-secondary link-offset-1">Mizzou Graduate.</a>
+                <a href="/interests/" class="link-secondary link-offset-1">Volunteer contributor.</a>
+            </p>
+            <p>
+                <a href="https://www.linkedin.com/in/jasonweinzierl" class="btn btn-primary">
+                    <span class="bi bi-linkedin"></span>
+                    Jason Weinzierl on LinkedIn
+                </a>
+            </p>
+        </div>
+    </main>
+    <Footer />
+</body>
+</html>

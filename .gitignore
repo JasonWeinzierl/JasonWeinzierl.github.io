@@ -28,3 +28,20 @@ Temporary Items
 
 config.ini.php
 .htaccess
+
+# Yarn
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+
+# build output
+dist/
+# generated types
+.astro/
+
+# dependencies
+node_modules/

@@ -1,0 +1,111 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+---
+
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <BaseHead title="Jason Weinzierl | Experience" />
+</head>
+
+<body>
+    <Header />
+    <main>
+        <div class="container mt-4">
+            <h1>Jason Weinzierl &mdash; Experience</h1>
+            <p class="lead">Software Engineer</p>
+            <div class="row">
+                <div class="col-md">
+                    <h2>Professional</h2>
+                    
+                    <h3>weavix</h3>
+                    
+                    <h4>Software Engineer <span class="text-muted">February 2023 to Present</span></h4>
+                    <p>Building the Internet of Workers.</p>
+                    <ul>
+                        <li><mark>TypeScript</mark>, web and mobile platforms, MongoDB</li>
+                        <li>Microsoft <mark>Azure</mark> cloud</li>
+                    </ul>
+
+                    <h3>SMG - Service Management Group</h3>
+
+                    <h4>Software Engineer <span class="text-muted">October 2021 to February 2023</span></h4>
+                    <p>Advanced Text Analytics <span class="text-muted">November 2020 to February 2023</span></p>
+                    <!-- Officially I started June 2020 but worked tickets for SR Team and then SD Team until November. -->
+                    <ul>
+                        <li>Text Analytics &amp; Insights product lane</li>
+                        <li>Backend .NET microservice Web APIs</li>
+                        <li>.NET and Python background worker services</li>
+                        <li>Frontend Angular components</li>
+                        <li><mark>C#</mark>, <mark>Angular</mark>, SQL Server, MongoDB, <mark>Elasticsearch</mark>, Python</li>
+                    </ul>
+
+                    <h4>Associate Software Engineer <span class="text-muted">May 2019 to October 2021</span></h4>
+                    <p>Core Platform Teams <span class="text-muted">June 2020 to November 2020</span></p>
+                    <ul>
+                        <li>Custom client-requested code changes to .NET backend services</li>
+                        <li>Data Processing Team work</li>
+                    </ul>
+                    <p>Core Bug Team <span class="text-muted">April 2020 to June 2020</span></p>
+                    <ul>
+                        <li>Production Support of operations, work with client-facing teams in problem resolution</li>
+                        <li>Bug &amp; defect investigation of legacy code base</li>
+                        <li>Respond to automated monitoring for outages</li>
+                    </ul>
+                    <p>Data Processing Team <span class="text-muted">May 2019 to March 2020</span></p>
+                    <ul>
+                        <li>Develop &amp; support ETL systems in <mark>SSIS</mark> for importing multi-source transactional data</li>
+                        <li>Develop C# modules for translating flat files to EAV-model database</li>
+                        <li>Dedicated contributions to automating and documenting existing processes</li>
+                        <li>Ad hoc queries of <mark>SQL Server</mark>, MongoDB in support of client-facing teams</li>
+                    </ul>
+                </div>
+                <div class="col-md">
+                    <h2>Personal Projects</h2>
+
+                    <h3>Belton Historical Society <a href="https://beltonhistoricalsociety.org" class="text-muted">Site<span class="bi bi-link-45deg" aria-hidden="true"></span></a></h3>
+                    <p class="text-muted">July 2011 to Present</p>
+                    <ul>
+                        <li>Third iteration migrated to Angular / ASP.NET Core, was previously PHP</li>
+                        <li>Single-page web app, lazy-loading Angular pages</li>
+                        <li>.NET backend, full unit and integration test coverage</li>
+                        <li>Migrated from SQL Server to MongoDB in 2023</li>
+                        <li>Append-only immutable database design</li>
+                    </ul>
+
+                    <h3>Skylight <a href="https://kbckc-skylight.azurewebsites.net" class="text-muted">Application<span class="bi bi-link-45deg" aria-hidden="true"></span></a></h3>
+                    <p class="text-muted">January 2024 to Present</p>
+                    <ul>
+                        <li>Church tool for generating PowerPoint slideshows from song lyrics</li>
+                        <li>Integrates with 3rd party REST API, including OAuth2</li>
+                    </ul>
+
+                    <h3>Personal finance <span class="text-muted">project</span></h3>
+                    <p class="text-muted">2023 to Present</p>
+                    <ul>
+                        <li>Personal data lake fed by multi-source financial data</li>
+                        <li>C# Azure Functions and Data Lake Storage Gen2</li>
+                    </ul>
+
+                    <h3>simple-chatroom <a href="https://github.com/JasonWeinzierl/simple-chatroom" class="text-muted">CLI<span class="bi bi-link-45deg" aria-hidden="true"></span></a></h3>
+                    <p class="text-muted">Nov 2018 to 2019</p>
+                    <ul>
+                        <li>Project for Networking</li>
+                        <li>Built entirely with <mark>Node.js</mark>, over TCP</li>
+                    </ul>
+
+                    <h3>Missouri Rail <span class="text-muted">Site</span></h3>
+                    <p class="text-muted">Feb 2017 to Apr 2017</p>
+                    <ul>
+                        <li>5-person group effort for introductory Databases course</li>
+                        <li>PHP, MariaDB</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </main>
+    <Footer />
+</body>
+</html>

@@ -1,0 +1,41 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+---
+
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <BaseHead title="Jason Weinzierl | Interests" />
+</head>
+
+<body>
+    <Header />
+    <main>
+        <div class="container mt-4">
+            <h1>Jason Weinzierl</h1>
+            <p class="lead">Hobbies and Volunteer Work</p>
+
+            <h3>Volunteer Work</h3>
+            <ul class="list-unstyled">
+                <li>Sound Booth operation at my local church</li>
+                <li>Maintaining the Belton Historical Society website</li>
+                <li>Re-notated Marching Mizzou's music in Finale <span class="text-muted">Summer 2018</span></li>
+            </ul>
+
+            <h3>Music</h3>
+            <ul class="list-unstyled">
+                <li>Marching Mizzou, Mellophone <span class="text-muted">2014&ndash;2018</span></li>
+                <li>Classical Piano <span class="text-muted">Since 2001</span></li>
+                <li>Family Brass Quintet</li>
+                <li>Defensive Shorts arranger for Marching Mizzou <span class="text-muted">2022, 2023</span></li>
+            </ul>
+
+            <h3>Code, code, code</h3>
+            <p>There's always more code to be written, optimized, or cleaned.</p>
+        </div>
+    </main>
+    <Footer />
+</body>
+</html>
