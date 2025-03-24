@@ -11,9 +11,13 @@ const normalizedHref = href?.toString().replace(/\/$/, '');
 const isActive = href === pathname || normalizedHref === '/' + (subpath?.[0] || '');
 ---
 
-<li class="nav-item">
+<li class="list-none">
     <a
-        class:list={['nav-link', className, { active: isActive }]}
+        class:list={[
+            'block py-2 md:px-2 text-white/55 focus:text-white/75 hover:text-white/75 transition-colors',
+            className,
+            { '!text-white': isActive },
+        ]}
         aria-current={isActive ? 'page' : undefined}
         href={href}
         {...props}

@@ -1,32 +1,50 @@
 ---
 import HeaderLink from './HeaderLink.astro'
+import { Github, Linkedin, Menu } from 'lucide-astro';
 ---
 
 <header>
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="/">Jason</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+    <nav class="relative bg-gray-800 flex justify-start items-center py-2">
+        <div class="flex items-center justify-between w-full px-3 mx-auto">
+            <a class="py-1.5 text-white text-xl mr-4" href="/">Jason</a>
+            <button
+                type="button"
+                class="cursor-pointer py-1 px-2 text-xl text-white/50 rounded-md border border-white/10 focus:outline-4 md:hidden"
+                popovertarget="site-menu"
+                aria-controls="site-menu"
+                aria-expanded="false"
+                aria-label="Toggle site menu"
+            >
+                <Menu size="30" />
             </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-md-0">
+            <div
+                popover
+                id="site-menu"
+                class="absolute top-14 md:top-0 w-full bg-gray-800 px-3 md:px-0 py-2 md:py-0 md:static md:flex md:flex-1 md:items-center starting:open:scale-y-0 open:scale-y-100 origin-top transition-transform duration-500"
+            >
+                <ul class="flex flex-col md:flex-row me-auto mb-2 md:mb-0">
                     <HeaderLink href="/Experience/">Experience</HeaderLink>
                     <HeaderLink href="/Education/">Education</HeaderLink>
                     <HeaderLink href="/Interests/">Interests</HeaderLink>
                 </ul>
-                <hr class="d-md-none text-white-50">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="https://github.com/JasonWeinzierl">
-                            <span class="bi bi-github"></span>
-                            <small class="d-md-none ms-2">GitHub</small>
+                <hr class="md:hidden text-white/50 opacity-25 my-4">
+                <ul class="flex flex-col md:flex-row ms-auto">
+                    <li class="list-none">
+                        <a
+                            class="block py-2 md:px-2 text-white/55 focus:text-white/75 hover:text-white/75 transition-colors"
+                            href="https://github.com/JasonWeinzierl"
+                        >
+                            <Github class="inline" />
+                            <small class="md:hidden ms-2">GitHub</small>
                         </a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="https://www.linkedin.com/in/jasonweinzierl">
-                            <span class="bi bi-linkedin"></span>
-                            <small class="d-md-none ms-2">LinkedIn</small>
+                    <li class="list-none">
+                        <a
+                            class="block py-2 md:px-2 text-white/55 focus:text-white/75 hover:text-white/75 transition-colors"
+                            href="https://www.linkedin.com/in/jasonweinzierl"
+                        >
+                            <Linkedin class="inline" />
+                            <small class="md:hidden ms-2">LinkedIn</small>
                         </a>
                     </li>
                 </ul>

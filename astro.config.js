@@ -1,5 +1,6 @@
 // @ts-check
 import { defineConfig } from 'astro/config';
+import tailwindcss from '@tailwindcss/vite';
 
 export default defineConfig({
   site: 'https://jasonweinzierl.com',
@@ -7,5 +8,13 @@ export default defineConfig({
   trailingSlash: 'always',
   build: {
     format: 'directory',
+  },
+  vite: {
+    plugins: [
+      tailwindcss(),
+    ],
+    build: {
+      minify: false,
+    },
   },
 });

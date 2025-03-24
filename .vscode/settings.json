@@ -1,10 +1,16 @@
 {
-    "cSpell.words": [
-        "Belton",
-        "Kanban",
-        "Mizzou",
-        "SSIS",
-        "weavix",
-        "Weinzierl"
-    ]
+  "cSpell.words": [
+    "Belton",
+    "Kanban",
+    "Mizzou",
+    "SSIS",
+    "weavix",
+    "Weinzierl"
+  ],
+  "files.associations": {
+    "*.css": "tailwindcss",
+  },
+  "tailwindCSS.includeLanguages": {
+    "astro": "html",
+  },
 }

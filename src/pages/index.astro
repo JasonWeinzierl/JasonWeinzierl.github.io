@@ -2,6 +2,7 @@
 import BaseHead from '../components/BaseHead.astro';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
+import { Linkedin } from 'lucide-astro';
 ---
 
 <!DOCTYPE html>
@@ -13,16 +14,19 @@ import Footer from '../components/Footer.astro';
 <body>
     <Header />
     <main>
-        <div class="container mt-4">
-            <h1 class="display-1">Jason Weinzierl</h1>
-            <p class="lead">
-                <a href="/Experience/" class="link-secondary link-offset-1">Software Engineer.</a>
-                <a href="/Education/" class="link-secondary link-offset-1">Mizzou Graduate.</a>
-                <a href="/Interests/" class="link-secondary link-offset-1">Volunteer contributor.</a>
+        <div class="container mx-auto px-3 mt-6">
+            <h1 class="h0 font-light mb-2">Jason Weinzierl</h1>
+            <p class="text-xl font-light mb-4">
+                <a href="/Experience/" class="text-gray-600 underline">Software Engineer.</a>
+                <a href="/Education/" class="text-gray-600 underline">Mizzou Graduate.</a>
+                <a href="/Interests/" class="text-gray-600 underline">Volunteer contributor.</a>
             </p>
-            <p>
-                <a href="https://www.linkedin.com/in/jasonweinzierl" class="btn btn-primary">
-                    <span class="bi bi-linkedin"></span>
+            <p class="mb-4">
+                <a
+                    href="https://www.linkedin.com/in/jasonweinzierl"
+                    class="py-2 px-3.5 text-white bg-blue-600 rounded-md cursor-pointer transition-colors duration-200 hover:bg-blue-700 focus:bg-blue-700 focus:ring-4 focus:ring-blue-300 focus:outline-none active:bg-blue-300"
+                >
+                    <Linkedin class="inline pb-1" />
                     Jason Weinzierl on LinkedIn
                 </a>
             </p>

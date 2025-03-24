@@ -13,13 +13,13 @@ import Footer from '../components/Footer.astro';
 <body>
     <Header />
     <main>
-        <div class="container mt-4">
-            <h1>Jason Weinzierl &mdash; Education</h1>
-            <p class="lead">Graduate of the University of Missouri</p>
-            <div class="row">
-                <div class="col-md">
-                    <h3>Computer Science, Minor</h3>
-                    <ul class="list-unstyled">
+        <div class="container mx-auto px-3 mt-6">
+            <h1 class="mb-2">Jason Weinzierl &mdash; Education</h1>
+            <p class="text-xl font-light mb-4">Graduate of the University of Missouri</p>
+            <div class="flex flex-wrap gap-x-6">
+                <div class="w-full md:flex-1">
+                    <h3 class="mb-2">Computer Science, Minor</h3>
+                    <ul class="mb-4">
                         <li>Object-Oriented Design: Java, PHP, Swift</li>
                         <li>Database Applications: MySQL</li>
                         <li>Agile Methodology: Scrum, Kanban, git</li>
@@ -32,9 +32,9 @@ import Footer from '../components/Footer.astro';
                     </ul>
                 </div>
 
-                <div class="col-md">
-                    <h3>Physics, BS</h3>
-                    <ul class="list-unstyled">
+                <div class="w-full md:flex-1">
+                    <h3 class="mb-2">Physics, BS</h3>
+                    <ul class="mb-4">
                         <li>Mechanics</li>
                         <li>Electricity &amp; Magnetism</li>
                         <li>Astronomy</li>
@@ -44,8 +44,8 @@ import Footer from '../components/Footer.astro';
                         <li>Nuclear Magnetic Resonance</li>
                     </ul>
 
-                    <h3>Mathematics, BS</h3>
-                    <ul class="list-unstyled">
+                    <h3 class="mb-2">Mathematics, BS</h3>
+                    <ul class="mb-4">
                         <li>Differential Equations</li>
                         <li>Real Analysis</li>
                         <li>Linear Algebra</li>
