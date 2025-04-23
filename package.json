@@ -12,7 +12,7 @@
     "astro": "^5.7.5",
     "lucide-astro": "^0.503.0",
     "tailwindcss": "^4.1.4",
-    "typescript": "^5.8.2",
+    "typescript": "^5.8.3",
     "vite": "^6.3.2"
   },
   "engines": {
