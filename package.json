@@ -8,12 +8,12 @@
     "build": "astro build"
   },
   "devDependencies": {
-    "@tailwindcss/vite": "^4.1.11",
-    "astro": "^5.12.0",
-    "lucide-astro": "^0.525.0",
-    "tailwindcss": "^4.1.11",
-    "typescript": "^5.8.3",
-    "vite": "^7.0.5"
+    "@tailwindcss/vite": "4.1.10",
+    "astro": "^5.12.9",
+    "lucide-astro": "^0.539.0",
+    "tailwindcss": "4.1.10",
+    "typescript": "^5.9.2",
+    "vite": "^6.3.5"
   },
   "engines": {
     "node": ".nvmrc"
