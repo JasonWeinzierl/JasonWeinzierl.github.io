@@ -9,8 +9,8 @@
   },
   "devDependencies": {
     "@tailwindcss/vite": "4.1.10",
-    "astro": "^5.12.9",
-    "lucide-astro": "^0.539.0",
+    "astro": "^5.13.2",
+    "lucide-astro": "^0.540.0",
     "tailwindcss": "4.1.10",
     "typescript": "^5.9.2",
     "vite": "^6.3.5"

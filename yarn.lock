@@ -22,18 +22,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@astrojs/internal-helpers@npm:0.7.1":
-  version: 0.7.1
-  resolution: "@astrojs/internal-helpers@npm:0.7.1"
-  checksum: 10c0/f14fa470d16b04d968f3d63826b158ed981befdb899d296f62e1d3d2b5d3ab164bfa60ceea97c072beb39ff5c7df5e054234d1a3af9a0f42df10780d50655f95
+"@astrojs/internal-helpers@npm:0.7.2":
+  version: 0.7.2
+  resolution: "@astrojs/internal-helpers@npm:0.7.2"
+  checksum: 10c0/c80f7d28f7b241b64f6542df68767b62e33d5637c4b23e8b7edcc9c6e3d5d3169b572e7da4d8eb5536939c34f8be0225923c8be6c52290551d74ca7c1dcbc4cc
   languageName: node
   linkType: hard
 
-"@astrojs/markdown-remark@npm:6.3.5":
-  version: 6.3.5
-  resolution: "@astrojs/markdown-remark@npm:6.3.5"
+"@astrojs/markdown-remark@npm:6.3.6":
+  version: 6.3.6
+  resolution: "@astrojs/markdown-remark@npm:6.3.6"
   dependencies:
-    "@astrojs/internal-helpers": "npm:0.7.1"
+    "@astrojs/internal-helpers": "npm:0.7.2"
     "@astrojs/prism": "npm:3.3.0"
     github-slugger: "npm:^2.0.0"
     hast-util-from-html: "npm:^2.0.3"
@@ -54,7 +54,7 @@ __metadata:
     unist-util-visit: "npm:^5.0.0"
     unist-util-visit-parents: "npm:^6.0.1"
     vfile: "npm:^6.0.3"
-  checksum: 10c0/ab559b3d13068ad0aeacf04cdfe8c76544dd3d5a857252406c20c541bb9288e5351f146cf4884b471101b52492947b8559525f8b9502b607714cd191b83325cf
+  checksum: 10c0/9a55458aa15f778e1522abd574b048b084652269963d47e9ace8fa2e1b63d026efc1468d48f2936dae3cee387b56be3eba3abf388f162adb9e9b08ce1d9b1ddd
   languageName: node
   linkType: hard
 
@@ -1202,13 +1202,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"astro@npm:^5.12.9":
-  version: 5.12.9
-  resolution: "astro@npm:5.12.9"
+"astro@npm:^5.13.2":
+  version: 5.13.2
+  resolution: "astro@npm:5.13.2"
   dependencies:
     "@astrojs/compiler": "npm:^2.12.2"
-    "@astrojs/internal-helpers": "npm:0.7.1"
-    "@astrojs/markdown-remark": "npm:6.3.5"
+    "@astrojs/internal-helpers": "npm:0.7.2"
+    "@astrojs/markdown-remark": "npm:6.3.6"
     "@astrojs/telemetry": "npm:3.3.0"
     "@capsizecss/unpack": "npm:^2.4.0"
     "@oslojs/encoding": "npm:^1.1.0"
@@ -1274,7 +1274,7 @@ __metadata:
       optional: true
   bin:
     astro: astro.js
-  checksum: 10c0/651dcdf32c67b2af60c3930c6f0983c1ea1d5808fde9c34ac8d0255744e26c79714bee59ea900548127574732af487c13852f949d280f0f8510ff3899fc76ca7
+  checksum: 10c0/b5b8df9e55bd4e6d564c69e4cac51fd101968480c5fb24447c6a16c3183c780f17f87271b3ff721963d08d0133b22b0c61b8dded8d5117b24f2a1adae89780c0
   languageName: node
   linkType: hard
 
@@ -2331,8 +2331,8 @@ __metadata:
   resolution: "jasonweinzierl.github.io@workspace:."
   dependencies:
     "@tailwindcss/vite": "npm:4.1.10"
-    astro: "npm:^5.12.9"
-    lucide-astro: "npm:^0.539.0"
+    astro: "npm:^5.13.2"
+    lucide-astro: "npm:^0.540.0"
     tailwindcss: "npm:4.1.10"
     typescript: "npm:^5.9.2"
     vite: "npm:^6.3.5"
@@ -2504,12 +2504,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lucide-astro@npm:^0.539.0":
-  version: 0.539.0
-  resolution: "lucide-astro@npm:0.539.0"
+"lucide-astro@npm:^0.540.0":
+  version: 0.540.0
+  resolution: "lucide-astro@npm:0.540.0"
   peerDependencies:
     astro: ">=2.7.1"
-  checksum: 10c0/bf5bfc3dbe8ef3bd630b9d477d444f61575ddee2dfc6cc8cb99d29f4ede09d2f94e5de346d372cbe26831b2a00b5e92268041c49c8dd9e23c4c13279df5e19e4
+  checksum: 10c0/48b11895b1fb557710cb0805de08f6122de1cb3637d5a15574d270e2de83a9bdc8b1ba2910e1b348a32dab6a10e58188099c9c6d09bcf62ff3d5706504a1b278
   languageName: node
   linkType: hard
 
