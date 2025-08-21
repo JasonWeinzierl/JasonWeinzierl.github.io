@@ -5,7 +5,6 @@ import { defineConfig } from 'astro/config';
 
 export default defineConfig({
   site: 'https://jasonweinzierl.com',
-  compressHTML: false,
   trailingSlash: 'always',
   build: {
     format: 'directory',
@@ -14,9 +13,6 @@ export default defineConfig({
     plugins: [
       tailwindcss(),
     ],
-    build: {
-      minify: false,
-    },
   },
   integrations: [
     sitemap(),
