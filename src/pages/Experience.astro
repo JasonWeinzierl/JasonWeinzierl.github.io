@@ -4,6 +4,13 @@ import { Link } from 'lucide-astro';
 import BaseHead from '../components/BaseHead.astro';
 import Footer from '../components/Footer.astro';
 import Header from '../components/Header.astro';
+
+// This will only re-calculate on build, but that's fine.
+const res = await fetch('https://api.npmjs.org/downloads/point/last-week/eslint-plugin-rxjs-x');
+const { downloads } = await res.json() as { downloads: number };
+const formatted = downloads >= 1000
+    ? `${String(Math.round(downloads / 1000))}k`
+    : String(downloads);
 ---
 
 <!DOCTYPE html>
@@ -68,6 +75,13 @@ import Header from '../components/Header.astro';
                 </div>
                 <div class="w-full md:flex-1">
                     <h2 class="mb-2">Personal Projects</h2>
+
+                    <h3>eslint-plugin-rxjs-x <a href="https://github.com/JasonWeinzierl/eslint-plugin-rxjs-x" class="text-gray-600 underline">Library<Link class="inline" aria-hidden="true" /></a></h3>
+                    <p class="mb-4 text-gray-600">November 2024 to Present</p>
+                    <ul class="mb-4 list-disc ps-8">
+                        <li>Fork of an existing project, upgraded to support modern ESLint versions</li>
+                        <li>Published to npm, {formatted} weekly downloads</li>
+                    </ul>
 
                     <h3 class="mb-2">Belton Historical Society <a href="https://beltonhistoricalsociety.org" class="text-gray-600 underline">Site<Link class="inline" aria-hidden="true" /></a></h3>
                     <p class="mb-4 text-gray-600">July 2011 to Present</p>
