@@ -8,13 +8,13 @@
     "build": "astro build"
   },
   "devDependencies": {
-    "@astrojs/sitemap": "^3.5.0",
+    "@astrojs/sitemap": "^3.7.2",
     "@tailwindcss/vite": "4.3.0",
-    "astro": "^5.13.2",
-    "lucide-astro": "^0.540.0",
+    "astro": "^6.3.6",
+    "lucide-astro": "^0.556.0",
     "tailwindcss": "4.3.0",
-    "typescript": "^5.9.2",
-    "vite": "^6.3.5"
+    "typescript": "^5.9.3",
+    "vite": "^7.3.3"
   },
   "dependenciesMeta": {
     "esbuild": {
