@@ -53,6 +53,19 @@ import HeaderLink from './HeaderLink.astro';
         </div>
     </nav>
 </header>
+<script>
+    const menuButton = document.querySelector<HTMLButtonElement>('[popovertarget="site-menu"]');
+    const siteMenu = document.querySelector<HTMLElement>('#site-menu');
+
+    if (menuButton && siteMenu) {
+        const updateExpanded = () => {
+            menuButton.setAttribute('aria-expanded', String(siteMenu.matches(':popover-open')));
+        };
+
+        siteMenu.addEventListener('toggle', updateExpanded);
+        updateExpanded();
+    }
+</script>
 <style>
     @starting-style {
         #site-menu:popover-open {
