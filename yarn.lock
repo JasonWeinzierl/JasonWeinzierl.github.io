@@ -2371,6 +2371,11 @@ __metadata:
     tailwindcss: "npm:4.1.10"
     typescript: "npm:^5.9.2"
     vite: "npm:^6.3.5"
+  dependenciesMeta:
+    esbuild:
+      built: true
+    sharp:
+      built: false
   languageName: unknown
   linkType: soft
 

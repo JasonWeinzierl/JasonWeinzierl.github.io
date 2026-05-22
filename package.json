@@ -16,6 +16,14 @@
     "typescript": "^5.9.2",
     "vite": "^6.3.5"
   },
+  "dependenciesMeta": {
+    "esbuild": {
+      "built": true
+    },
+    "sharp": {
+      "built": false
+    }
+  },
   "engines": {
     "node": ".nvmrc"
   }
