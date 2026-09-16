@@ -41,6 +41,7 @@ export default defineConfig(gitignore(), globalIgnores([
 
       'unicorn/filename-case': 'off',
       'unicorn/prevent-abbreviations': 'off',
+      'unicorn/name-replacements': 'off',
 
       'perfectionist/sort-imports': 'warn',
       'perfectionist/sort-named-imports': 'warn',
