@@ -13,4 +13,11 @@
   "tailwindCSS.includeLanguages": {
     "astro": "html",
   },
+  "[opentofu][opentofu-vars]": {
+    "editor.defaultFormatter": "opentofu.vscode-opentofu",
+    "editor.formatOnSave": false,
+    "editor.codeActionsOnSave": {
+      "source.formatAll.opentofu": "explicit",
+    },
+  },
 }
