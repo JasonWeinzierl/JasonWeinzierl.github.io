@@ -2,6 +2,13 @@ on:
   push:
     branches:
       - main
+    paths:
+      - src/**
+      - public/**
+      - package.json
+      - yarn.lock
+      - tsconfig.json
+      - astro.config.js
   workflow_dispatch: {}
 
 permissions:
