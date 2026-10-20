@@ -5,11 +5,14 @@
   "type": "module",
   "scripts": {
     "build": "astro build",
+    "check": "astro check",
     "lint": "eslint",
     "start": "astro dev"
   },
   "devDependencies": {
+    "@astrojs/check": "^0.9.10",
     "@astrojs/sitemap": "3.7.4",
+    "@emnapi/runtime": "^1.11.3",
     "@eslint/js": "^10.0.1",
     "@stylistic/eslint-plugin": "^5.10.0",
     "@tailwindcss/vite": "4.3.3",
