@@ -1,6 +1,7 @@
 ---
-import { Linkedin } from 'lucide-astro';
+import { Image } from 'astro:assets';
 
+import linkedinLogo from '../assets/InBug-White.png';
 import BaseHead from '../components/BaseHead.astro';
 import Footer from '../components/Footer.astro';
 import Header from '../components/Header.astro';
@@ -27,7 +28,7 @@ import Header from '../components/Header.astro';
                     href="https://www.linkedin.com/in/jasonweinzierl"
                     class="cursor-pointer rounded-md bg-sky-600 px-3.5 py-2 text-white transition-colors duration-200 hover:bg-sky-700 focus:bg-sky-700 focus:ring-4 focus:ring-sky-300 focus:outline-none active:bg-sky-300"
                 >
-                    <Linkedin class="inline pb-1" />
+                    <Image src={linkedinLogo} alt="" width={24} densities={[1, 2]} class="inline size-6 object-contain pb-1" />
                     Jason Weinzierl on LinkedIn
                 </a>
             </p>

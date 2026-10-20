@@ -1,6 +1,9 @@
 ---
-import { Github, Linkedin, Menu } from 'lucide-astro';
+import { Image } from 'astro:assets';
+import { Menu } from 'lucide-astro';
 
+import GithubLogo from '../assets/GitHub_Invertocat_White.svg';
+import linkedinLogo from '../assets/InBug-White.png';
 import HeaderLink from './HeaderLink.astro';
 ---
 
@@ -35,7 +38,7 @@ import HeaderLink from './HeaderLink.astro';
                             class="block py-2 text-white/55 transition-colors hover:text-white/75 focus:text-white/75 md:px-2"
                             href="https://github.com/JasonWeinzierl"
                         >
-                            <Github class="inline" />
+                            <GithubLogo aria-hidden="true" width="24" height="24" class="inline size-6 object-contain" />
                             <small class="ms-2">GitHub</small>
                         </a>
                     </li>
@@ -44,7 +47,7 @@ import HeaderLink from './HeaderLink.astro';
                             class="block py-2 text-white/55 transition-colors hover:text-white/75 focus:text-white/75 md:px-2"
                             href="https://www.linkedin.com/in/jasonweinzierl"
                         >
-                            <Linkedin class="inline" />
+                            <Image src={linkedinLogo} alt="" width={24} densities={[1, 2]} class="inline size-6 object-contain" />
                             <small class="ms-2">LinkedIn</small>
                         </a>
                     </li>
