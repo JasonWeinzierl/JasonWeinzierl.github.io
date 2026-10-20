@@ -2,6 +2,7 @@
     "recommendations": [
         "astro-build.astro-vscode",
         "opentofu.vscode-opentofu",
-        "editorconfig.editorconfig"
+        "editorconfig.editorconfig",
+        "bradlc.vscode-tailwindcss"
     ]
 }
