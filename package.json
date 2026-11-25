@@ -10,13 +10,13 @@
     "start": "astro dev"
   },
   "devDependencies": {
-    "@astrojs/check": "^0.9.10",
-    "@astrojs/sitemap": "3.7.4",
+    "@astrojs/check": "^0.9.12",
+    "@astrojs/sitemap": "3.7.6",
     "@emnapi/runtime": "^1.11.3",
     "@eslint/js": "^10.0.1",
     "@stylistic/eslint-plugin": "^5.10.0",
     "@tailwindcss/vite": "4.3.3",
-    "astro": "7.4.0",
+    "astro": "7.4.13",
     "eslint": "^10.13.0",
     "eslint-config-flat-gitignore": "^2.4.0",
     "eslint-plugin-astro": "^3.2.1",
@@ -28,7 +28,7 @@
     "tailwindcss": "4.3.3",
     "typescript": "^6.0.3",
     "typescript-eslint": "^8.71.2",
-    "vite": "^8.3.4"
+    "vite": "^8.3.8"
   },
   "dependenciesMeta": {
     "sharp": {
